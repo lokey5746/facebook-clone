@@ -1,11 +1,18 @@
 import React from "react";
 import "./App.css";
+import Header from "./Header";
 
 function App() {
   return (
     //BEM
     <div className="app">
-      <h2>let's Build a facebook clone</h2>
+      {/* Header */}
+      <Header />
+      <div className="app__body">
+        {/* Sidebar */}
+        {/* Feed */}
+        {/* Widgets */}
+      </div>
     </div>
   );
 }
